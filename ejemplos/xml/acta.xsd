@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.example.org/acta"
+	xmlns:tns="http://www.example.org/acta" elementFormDefault="qualified">
+
+	<simpleType name="Tipo_Nota">
+		<restriction base="double">
+			<minInclusive value="0" />
+			<maxInclusive value="10" />
+		</restriction>
+	</simpleType>
+
+	<complexType name="Tipo_Calificacion">
+		<sequence>
+			<element name="nif" type="string" />
+			<element name="nombre" type="string" minOccurs="0" />
+			<element name="nota" type="tns:Tipo_Nota" />
+
+		</sequence>
+	</complexType>
+
+	<complexType name="Tipo_Diligencia">
+		<sequence>
+			<element name="nif" type="string" />
+			<element name="nombre" type="string" minOccurs="0" />
+			<element name="nota" type="tns:Tipo_Nota" />
+		</sequence>
+		<attribute name="fecha" type="date" use="required" />
+		<attribute name="extraordinaria" type="string" />
+
+	</complexType>
+
+
+	<element name="acta">
+		<complexType>
+			<sequence>
+				<element name="calificacion" type="tns:Tipo_Calificacion"
+					maxOccurs="unbounded">
+
+				</element>
+				<element name="diligencia" type="tns:Tipo_Diligencia"
+					minOccurs="0" maxOccurs="unbounded">
+				</element>
+			</sequence>
+			<attribute name="asignatura" type="NMTOKEN" use="required" />
+			<attribute name="convocatoria" use="required">
+				<simpleType>
+					<restriction base="string">
+						<enumeration value="febrero" />
+						<enumeration value="junio" />
+						<enumeration value="julio" />
+					</restriction>
+				</simpleType>
+			</attribute>
+			<attribute name="curso" type="string" />
+		</complexType>
+	</element>
+
+</schema>

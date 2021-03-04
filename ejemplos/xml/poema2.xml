@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<poema fecha="Abril de 1915" lugar="Granada" xmlns="http://www.example.org/poema"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.example.org/poema poema.xsd ">
+	<titulo>Alba</titulo>
+	<verso>verso</verso>
+	<verso>verso2</verso>
+</poema>

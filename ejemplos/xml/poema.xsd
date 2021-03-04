@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.example.org/poema"
+	xmlns:tns="http://www.example.org/poema" 
+	elementFormDefault="qualified">
+	
+	<element name="poema">
+		<complexType>
+			<sequence>
+				<element name="titulo" type="string" />
+				<element name="verso" type="string" maxOccurs="unbounded" />
+			</sequence>
+			<attribute name="fecha" type="string" use="required" />
+			<attribute name="lugar" type="string" />
+				
+		</complexType>
+	
+	</element>
+	
+</schema>
