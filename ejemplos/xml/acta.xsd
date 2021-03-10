@@ -1,59 +1,71 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<schema xmlns="http://www.w3.org/2001/XMLSchema"
-	targetNamespace="http://www.example.org/acta"
-	xmlns:tns="http://www.example.org/acta" elementFormDefault="qualified">
+<?xml version="1.0" ?>
 
-	<simpleType name="Tipo_Nota">
-		<restriction base="double">
-			<minInclusive value="0" />
-			<maxInclusive value="10" />
-		</restriction>
-	</simpleType>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.um.es/acta" xmlns="http://www.um.es/acta"
+	elementFormDefault="qualified">
 
-	<complexType name="Tipo_Calificacion">
-		<sequence>
-			<element name="nif" type="string" />
-			<element name="nombre" type="string" minOccurs="0" />
-			<element name="nota" type="tns:Tipo_Nota" />
+	<xs:element name="acta">
 
-		</sequence>
-	</complexType>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="calificacion" type="tipoCalificacion"
+					maxOccurs="unbounded" />
+				<xs:element name="diligencia" type="tipoDiligencia"
+					minOccurs="0" maxOccurs="unbounded" />
+			</xs:sequence>
+			<xs:attribute name="asignatura" type="xs:NMTOKEN" use="required" />
+			<xs:attribute name="convocatoria" use="required">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="febrero" />
+						<xs:enumeration value="junio" />
+						<xs:enumeration value="julio" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="curso" type="xs:gYear" use="optional" />
+		</xs:complexType>
+	</xs:element>
 
-	<complexType name="Tipo_Diligencia">
-		<sequence>
-			<element name="nif" type="string" />
-			<element name="nombre" type="string" minOccurs="0" />
-			<element name="nota" type="tns:Tipo_Nota" />
-		</sequence>
-		<attribute name="fecha" type="date" use="required" />
-		<attribute name="extraordinaria" type="string" />
+	<xs:simpleType name="tipoNota">
+		<xs:restriction base="xs:double">
+			<xs:minInclusive value="0" />
+			<xs:maxInclusive value="10" />
+		</xs:restriction>
+	</xs:simpleType>
 
-	</complexType>
+	<xs:simpleType name="tipoNif">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="\d{8}[a-zA-Z]" />
+			<xs:length value="9" />
+		</xs:restriction>
+	</xs:simpleType>
 
+	<xs:complexType name="tipoCalificacion">
+		<xs:sequence>
+			<xs:element name="nif" type="tipoNif" />
+			<xs:element name="nombre" type="xs:string" minOccurs="0" />
+			<xs:element name="nota" type="tipoNota" />
+		</xs:sequence>
+	</xs:complexType>
 
-	<element name="acta">
-		<complexType>
-			<sequence>
-				<element name="calificacion" type="tns:Tipo_Calificacion"
-					maxOccurs="unbounded">
+	<!-- Aplicación de herencia en la definición del tipo diligencia -->
+	
+	<xs:complexType name="tipoDiligencia">
+		<xs:complexContent>
+			<xs:extension base="tipoCalificacion">
+				<xs:attribute name="fecha" type="xs:date" use="required" />
+				<xs:attribute name="extraordinaria" use="optional"
+					default="No">
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Sí" />
+							<xs:enumeration value="No" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:attribute>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
 
-				</element>
-				<element name="diligencia" type="tns:Tipo_Diligencia"
-					minOccurs="0" maxOccurs="unbounded">
-				</element>
-			</sequence>
-			<attribute name="asignatura" type="NMTOKEN" use="required" />
-			<attribute name="convocatoria" use="required">
-				<simpleType>
-					<restriction base="string">
-						<enumeration value="febrero" />
-						<enumeration value="junio" />
-						<enumeration value="julio" />
-					</restriction>
-				</simpleType>
-			</attribute>
-			<attribute name="curso" type="string" />
-		</complexType>
-	</element>
-
-</schema>
+</xs:schema>
