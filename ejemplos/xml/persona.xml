@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
-<p:persona xmlns:p="http://www.example.org/esquema"
+<p:persona xmlns:p="http://www.example.org/persona"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://www.example.org/esquema persona.xsd ">
-	<p:nombre>Juan</p:nombre>
-	<p:apellidos>González</p:apellidos>
+	xsi:schemaLocation="http://www.example.org/persona persona.xsd ">
+	<nombre>Juan</nombre>
+	<apellidos>González</apellidos>
 </p:persona>

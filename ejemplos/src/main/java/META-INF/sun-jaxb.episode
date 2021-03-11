@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bindings xmlns="http://java.sun.com/xml/ns/jaxb" if-exists="true" version="2.1">
+      
+    <!--
+
+Este archivo ha sido generado por la arquitectura JavaTM para la implantación de la referencia de enlace (JAXB) XML v2.3.0 
+Visite <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2021.03.11 a las 11:59:14 AM CET 
+
+  -->
+      
+    <bindings xmlns:tns="http://www.um.es/acta" if-exists="true" scd="x-schema::tns">
+            
+        <schemaBindings map="false">
+                  
+            <package name="es.um.acta"/>
+                
+        </schemaBindings>
+            
+        <bindings if-exists="true" scd="tns:acta">
+                  
+            <class ref="es.um.acta.Acta"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:tipoCalificacion">
+                  
+            <class ref="es.um.acta.TipoCalificacion"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:tipoDiligencia">
+                  
+            <class ref="es.um.acta.TipoDiligencia"/>
+                
+        </bindings>
+          
+    </bindings>
+      
+    <bindings xmlns:tns="http://www.example.org/persona" if-exists="true" scd="x-schema::tns">
+            
+        <schemaBindings map="false">
+                  
+            <package name="org.example.persona"/>
+                
+        </schemaBindings>
+            
+        <bindings if-exists="true" scd="tns:persona">
+                  
+            <class ref="org.example.persona.Persona"/>
+                
+        </bindings>
+          
+    </bindings>
+      
+    <bindings xmlns:tns="http://www.example.org/poema" if-exists="true" scd="x-schema::tns">
+            
+        <schemaBindings map="false">
+                  
+            <package name="org.example.poema"/>
+                
+        </schemaBindings>
+            
+        <bindings if-exists="true" scd="tns:poema">
+                  
+            <class ref="org.example.poema.Poema"/>
+                
+        </bindings>
+          
+    </bindings>
+    
+</bindings>
