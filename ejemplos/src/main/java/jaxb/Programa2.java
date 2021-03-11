@@ -5,7 +5,7 @@ import java.io.File;
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.Marshaller;
 
-public class Programa {
+public class Programa2 {
 
 	public static void main(String[] args) throws Exception {
 		// Construir el contexto JAXB para las clases anotadas
@@ -23,7 +23,7 @@ public class Programa {
 						
 		marshaller.setProperty("jaxb.formatted.output", true);
 				
-		marshaller.marshal(persona, new File("xml/persona.xml"));
+		marshaller.marshal(persona, new File("xml/persona2.xml"));
 		
 		System.out.println("fin.");
 	}
