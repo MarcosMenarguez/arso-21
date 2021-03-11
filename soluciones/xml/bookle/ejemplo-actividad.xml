@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actividad xmlns="http://www.um.es/bookle" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://www.um.es/bookle bookle.xsd ">
+  <id>1b604a00-5aaa-447e-b5cc-0aa895b0adac</id>
+    <titulo>Entrevistas ArSo</titulo>
+    <descripcion>Entrevistas entrega 1</descripcion>
+    <profesor>Marcos</profesor>
+    <email>marcos@um.es</email>
+    <agenda>
+        <fecha>2021-04-08</fecha>
+        <turno>
+            <horario>9:00-9:30</horario>
+        </turno>
+        <turno>
+            <horario>9:30-10:00</horario>
+        </turno>
+        <turno>
+            <horario>10:00-10:30</horario>
+            <reserva>                
+                <alumno>Juan González</alumno>
+                <email>juan.gonzalez@gmail.com</email>
+            </reserva>
+        </turno>
+    </agenda>
+</actividad>
