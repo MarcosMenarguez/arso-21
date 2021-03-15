@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.um.es/bookle"
+	xmlns="http://www.um.es/bookle" elementFormDefault="qualified">
+		
+	<xs:element name="actividad">		
+    <xs:complexType>
+		<xs:sequence>
+			<xs:element name="id" type="xs:string" />
+			<xs:element name="titulo" type="xs:string" />
+			<xs:element name="descripcion" type="xs:string" minOccurs="0" />
+			<xs:element name="profesor" type="xs:string" />
+			<xs:element name="email" type="tipo_email" minOccurs="0" />
+			<xs:element name="agenda" type="diaActividad" maxOccurs="unbounded" />
+		</xs:sequence>
+	</xs:complexType>
+    </xs:element>
+	
+	<xs:simpleType name="tipo_email">
+	<xs:restriction base="xs:string">
+		<!-- control básico -->
+		<xs:pattern value="[^@]+@[^\.]+\..+" />
+	</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:complexType name="diaActividad">
+		<xs:sequence>
+			<xs:element name="fecha" type="xs:date" />
+			<xs:element name="turno" type="turno" maxOccurs="unbounded" />
+		</xs:sequence>	
+	</xs:complexType>
+	
+	<xs:complexType name="turno">
+		<xs:sequence>
+			<xs:element name="horario" type="xs:string" />
+			<xs:element name="reserva" type="reserva" minOccurs="0" />
+		</xs:sequence>	
+	</xs:complexType>
+	
+	<xs:complexType name="reserva">
+		<xs:sequence>			
+			<xs:element name="alumno" type="xs:string" />
+			<xs:element name="email" type="tipo_email" minOccurs="0"/>
+		</xs:sequence>	
+	</xs:complexType>	
+	
+</xs:schema>
