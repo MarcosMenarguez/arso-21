@@ -20,7 +20,7 @@ public class ProgramaNotaMedia {
 				
 		JAXBContext contexto = JAXBContext.newInstance("es.um.acta");
 		
-		// 2. Obtener el ?rbol de contenido de un documento
+		// 2. Obtener el árbol de contenido de un documento
 		
 		Unmarshaller unmarshaller = contexto.createUnmarshaller();
 		

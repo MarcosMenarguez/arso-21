@@ -33,7 +33,7 @@ public class ProgramaCrearActa {
 		XMLGregorianCalendar curso = 
 				DatatypeFactory.newInstance().newXMLGregorianCalendar();	
 		
-		curso.setYear(2017);	
+		curso.setYear(2020);	
 		calificaciones.setCurso(curso);	
 		
 		calificaciones.setAsignatura("1092");

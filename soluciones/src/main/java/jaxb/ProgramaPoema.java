@@ -15,7 +15,7 @@ public class ProgramaPoema {
 		poema.setFecha("Abril de 1915");
 		poema.setLugar("Granada");
 		poema.setTitulo("Alba");
-		poema.getVerso().add("Mi coraz?n oprimido");
+		poema.getVerso().add("Mi corazón oprimido");
 		poema.getVerso().add("siente junto a la alborada");
 		poema.getVerso().add("el dolor de sus amores");
 		poema.getVerso().add("y el sue?o de las distancias.");
