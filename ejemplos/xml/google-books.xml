@@ -1,0 +1,264 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns='http://www.w3.org/2005/Atom'
+	xmlns:openSearch='http://a9.com/-/spec/opensearchrss/1.0/'
+	xmlns:gbs='http://schemas.google.com/books/2008'
+	xmlns:gd='http://schemas.google.com/g/2005'
+	xmlns:batch='http://schemas.google.com/gdata/batch'
+	xmlns:dc='http://purl.org/dc/terms'>
+	<id>http://www.google.com/books/feeds/volumes</id>
+	<updated>2021-03-18T12:28:50.000Z</updated>
+	<category scheme='http://schemas.google.com/g/2005#kind'
+		term='http://schemas.google.com/books/2008#volume' />
+	<title type='text'>Search results for Hansel y Gretel</title>
+	<link rel='alternate' type='text/html'
+		href='http://www.google.com' />
+	<link rel='http://schemas.google.com/g/2005#feed'
+		type='application/atom+xml'
+		href='https://www.google.com/books/feeds/volumes' />
+	<link rel='self' type='application/atom+xml'
+		href='https://www.google.com/books/feeds/volumes?q=Hansel+y+Gretel&amp;start-index=1&amp;max-results=5' />
+	<link rel='next' type='application/atom+xml'
+		href='https://www.google.com/books/feeds/volumes?q=Hansel+y+Gretel&amp;start-index=6&amp;max-results=5' />
+	<author>
+		<name>Google Books Search</name>
+		<uri>http://www.google.com</uri>
+	</author>
+	<generator version='beta'>Google Book Search data API</generator>
+	<openSearch:totalResults>739</openSearch:totalResults>
+	<openSearch:startIndex>1</openSearch:startIndex>
+	<openSearch:itemsPerPage>5</openSearch:itemsPerPage>
+	<entry>
+		<id>http://www.google.com/books/feeds/volumes/W7JIDwAAQBAJ</id>
+		<updated>2021-03-18T12:28:50.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind'
+			term='http://schemas.google.com/books/2008#volume' />
+		<title type='text'>Hansel y Gretel</title>
+		<link rel='http://schemas.google.com/books/2008/thumbnail'
+			type='image/x-unknown'
+			href='http://books.google.com/books/content?id=W7JIDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=5&amp;edge=curl&amp;source=gbs_gdata' />
+		<link rel='http://schemas.google.com/books/2008/info'
+			type='text/html'
+			href='http://books.google.com/books?id=W7JIDwAAQBAJ&amp;dq=Hansel+y+Gretel&amp;source=gbs_gdata' />
+		<link rel='http://schemas.google.com/books/2008/preview'
+			type='text/html'
+			href='http://books.google.com/books?id=W7JIDwAAQBAJ&amp;printsec=frontcover&amp;dq=Hansel+y+Gretel&amp;cd=1&amp;source=gbs_gdata' />
+		<link rel='http://schemas.google.com/books/2008/annotation'
+			type='application/atom+xml'
+			href='http://www.google.com/books/feeds/users/me/volumes' />
+		<link rel='http://schemas.google.com/books/2008/buylink'
+			type='text/html'
+			href='https://play.google.com/store/books/details?id=W7JIDwAAQBAJ&amp;rdid=book-W7JIDwAAQBAJ&amp;rdot=1&amp;source=gbs_gdata' />
+		<link rel='alternate' type='text/html'
+			href='http://books.google.com/books?id=W7JIDwAAQBAJ&amp;dq=Hansel+y+Gretel' />
+		<link rel='self' type='application/atom+xml'
+			href='https://www.google.com/books/feeds/volumes/W7JIDwAAQBAJ' />
+		<gbs:contentVersion>1.3.4.0.preview.3</gbs:contentVersion>
+		<gbs:embeddability
+			value='http://schemas.google.com/books/2008#embeddable' />
+		<gbs:openAccess
+			value='http://schemas.google.com/books/2008#disabled' />
+		<gbs:viewability value='http://schemas.google.com/books/2008#view_partial' />
+		<dc:creator>Wilhelm y Jacob Grimm</dc:creator>
+		<dc:format>80 pages</dc:format>
+		<dc:format>book</dc:format>
+		<dc:identifier>W7JIDwAAQBAJ</dc:identifier>
+		<dc:identifier>ISBN:9786074535419</dc:identifier>
+		<dc:identifier>ISBN:6074535418</dc:identifier>
+		<dc:language>es</dc:language>
+		<gbs:price type='SuggestedRetailPrice'>
+			<gd:money amount='2.55' currencyCode='EUR' />
+		</gbs:price>
+		<gbs:price type='RetailPrice'>
+			<gd:money amount='2.42' currencyCode='EUR' />
+		</gbs:price>
+		<dc:publisher>SELECTOR</dc:publisher>
+		<dc:subject>Fiction</dc:subject>
+		<dc:title>Hansel y Gretel</dc:title>
+	</entry>
+	<entry>
+		<id>http://www.google.com/books/feeds/volumes/6WP7DwAAQBAJ</id>
+		<updated>2021-03-18T12:28:50.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind'
+			term='http://schemas.google.com/books/2008#volume' />
+		<title type='text'>Hansel y Gretel</title>
+		<link rel='http://schemas.google.com/books/2008/thumbnail'
+			type='image/x-unknown'
+			href='http://books.google.com/books/content?id=6WP7DwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=5&amp;edge=curl&amp;source=gbs_gdata' />
+		<link rel='http://schemas.google.com/books/2008/info'
+			type='text/html'
+			href='http://books.google.com/books?id=6WP7DwAAQBAJ&amp;dq=Hansel+y+Gretel&amp;source=gbs_gdata' />
+		<link rel='http://schemas.google.com/books/2008/preview'
+			type='text/html'
+			href='http://books.google.com/books?id=6WP7DwAAQBAJ&amp;printsec=frontcover&amp;dq=Hansel+y+Gretel&amp;cd=2&amp;source=gbs_gdata' />
+		<link rel='http://schemas.google.com/books/2008/annotation'
+			type='application/atom+xml'
+			href='http://www.google.com/books/feeds/users/me/volumes' />
+		<link rel='http://schemas.google.com/books/2008/buylink'
+			type='text/html'
+			href='https://play.google.com/store/books/details?id=6WP7DwAAQBAJ&amp;rdid=book-6WP7DwAAQBAJ&amp;rdot=1&amp;source=gbs_gdata' />
+		<link rel='alternate' type='text/html'
+			href='http://books.google.com/books?id=6WP7DwAAQBAJ&amp;dq=Hansel+y+Gretel' />
+		<link rel='self' type='application/atom+xml'
+			href='https://www.google.com/books/feeds/volumes/6WP7DwAAQBAJ' />
+		<gbs:contentVersion>1.3.3.0.preview.2</gbs:contentVersion>
+		<gbs:embeddability
+			value='http://schemas.google.com/books/2008#embeddable' />
+		<gbs:openAccess
+			value='http://schemas.google.com/books/2008#disabled' />
+		<gbs:viewability
+			value='http://schemas.google.com/books/2008#view_partial' />
+		<dc:creator>Hermanos Grimm</dc:creator>
+		<dc:date>2021-02-16</dc:date>
+		<dc:description>&amp;quot; La clásica historia de senderos de migajas
+			de pan, una casa de golosinas y una bruja malvada y ciega, Hansel Y
+			Gretel es uno de los cuentos más famosos publicados por los hermanos
+			Grimm.</dc:description>
+		<dc:format>6 pages</dc:format>
+		<dc:format>book</dc:format>
+		<dc:identifier>6WP7DwAAQBAJ</dc:identifier>
+		<dc:identifier>ISBN:9788726353044</dc:identifier>
+		<dc:identifier>ISBN:8726353040</dc:identifier>
+		<dc:language>es</dc:language>
+		<gbs:price type='SuggestedRetailPrice'>
+			<gd:money amount='0.84' currencyCode='EUR' />
+		</gbs:price>
+		<gbs:price type='RetailPrice'>
+			<gd:money amount='0.8' currencyCode='EUR' />
+		</gbs:price>
+		<dc:publisher>Lindhardt og Ringhof</dc:publisher>
+		<dc:subject>Social Science</dc:subject>
+		<dc:title>Hansel y Gretel</dc:title>
+	</entry>
+	<entry>
+		<id>http://www.google.com/books/feeds/volumes/JLYIywAACAAJ</id>
+		<updated>2021-03-18T12:28:50.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind'
+			term='http://schemas.google.com/books/2008#volume' />
+		<title type='text'>Hansel y Gretel</title>
+		<link rel='http://schemas.google.com/books/2008/thumbnail'
+			type='image/x-unknown'
+			href='http://books.google.com/books/content?id=JLYIywAACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=5&amp;source=gbs_gdata' />
+		<link rel='http://schemas.google.com/books/2008/info'
+			type='text/html'
+			href='http://books.google.com/books?id=JLYIywAACAAJ&amp;dq=Hansel+y+Gretel&amp;source=gbs_gdata' />
+		<link rel='http://schemas.google.com/books/2008/preview'
+			type='text/html'
+			href='http://books.google.com/books?id=JLYIywAACAAJ&amp;dq=Hansel+y+Gretel&amp;cd=3&amp;source=gbs_gdata' />
+		<link rel='http://schemas.google.com/books/2008/annotation'
+			type='application/atom+xml'
+			href='http://www.google.com/books/feeds/users/me/volumes' />
+		<link rel='alternate' type='text/html'
+			href='http://books.google.com/books?id=JLYIywAACAAJ&amp;dq=Hansel+y+Gretel' />
+		<link rel='self' type='application/atom+xml'
+			href='https://www.google.com/books/feeds/volumes/JLYIywAACAAJ' />
+		<gbs:contentVersion>preview-1.0.0</gbs:contentVersion>
+		<gbs:embeddability
+			value='http://schemas.google.com/books/2008#not_embeddable' />
+		<gbs:openAccess
+			value='http://schemas.google.com/books/2008#disabled' />
+		<gbs:viewability
+			value='http://schemas.google.com/books/2008#view_no_pages' />
+		<dc:creator>Víctor Escandell</dc:creator>
+		<dc:date>2010-09-01</dc:date>
+		<dc:description>&amp;quot;¡Una casa hecha de golosinas! ¡Ay, qué ganas
+			de comerla toda! Pero Hansel y Gretel cayeron en la trampa de una
+			bruja malvada. ¡Qué cuidado hay que tener!&amp;quot;--Page 4 of
+			cover.</dc:description>
+		<dc:format>32 pages</dc:format>
+		<dc:format>book</dc:format>
+		<dc:identifier>JLYIywAACAAJ</dc:identifier>
+		<dc:identifier>ISBN:8434237121</dc:identifier>
+		<dc:identifier>ISBN:9788434237124</dc:identifier>
+		<dc:language>es</dc:language>
+		<dc:publisher>Parramon</dc:publisher>
+		<dc:subject>Comics &amp; Graphic Novels</dc:subject>
+		<dc:title>Hansel y Gretel</dc:title>
+	</entry>
+	<entry>
+		<id>http://www.google.com/books/feeds/volumes/Q_iUBQAAQBAJ</id>
+		<updated>2021-03-18T12:28:50.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind'
+			term='http://schemas.google.com/books/2008#volume' />
+		<title type='text'>Hänsel y Gretel</title>
+		<link rel='http://schemas.google.com/books/2008/thumbnail'
+			type='image/x-unknown'
+			href='http://books.google.com/books/content?id=Q_iUBQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=5&amp;source=gbs_gdata' />
+		<link rel='http://schemas.google.com/books/2008/info'
+			type='text/html'
+			href='http://books.google.com/books?id=Q_iUBQAAQBAJ&amp;dq=Hansel+y+Gretel&amp;source=gbs_gdata' />
+		<link rel='http://schemas.google.com/books/2008/preview'
+			type='text/html'
+			href='http://books.google.com/books?id=Q_iUBQAAQBAJ&amp;dq=Hansel+y+Gretel&amp;cd=4&amp;source=gbs_gdata' />
+		<link rel='http://schemas.google.com/books/2008/annotation'
+			type='application/atom+xml'
+			href='http://www.google.com/books/feeds/users/me/volumes' />
+		<link rel='alternate' type='text/html'
+			href='http://books.google.com/books?id=Q_iUBQAAQBAJ&amp;dq=Hansel+y+Gretel' />
+		<link rel='self' type='application/atom+xml'
+			href='https://www.google.com/books/feeds/volumes/Q_iUBQAAQBAJ' />
+		<gbs:contentVersion>1.1.2.0.preview.2</gbs:contentVersion>
+		<gbs:embeddability
+			value='http://schemas.google.com/books/2008#not_embeddable' />
+		<gbs:openAccess
+			value='http://schemas.google.com/books/2008#disabled' />
+		<gbs:viewability
+			value='http://schemas.google.com/books/2008#view_no_pages' />
+		<dc:creator>Wilhelm Grimm</dc:creator>
+		<dc:creator>Jacob Grimm</dc:creator>
+		<dc:date>2014-11-20</dc:date>
+		<dc:description>Desde hace generaciones, los lectores más pequeños (y
+			también los adultos) contienen el aliento con cada escena de este
+			cuento inmortal, en el que los hermanos Grimm muestran desde la
+			amargura de unos padres crueles hasta el olor dulce ...</dc:description>
+		<dc:format>48 pages</dc:format>
+		<dc:format>book</dc:format>
+		<dc:identifier>Q_iUBQAAQBAJ</dc:identifier>
+		<dc:identifier>ISBN:9788467860221</dc:identifier>
+		<dc:identifier>ISBN:8467860227</dc:identifier>
+		<dc:language>es</dc:language>
+		<dc:publisher>Comercial Grupo ANAYA, S.A.</dc:publisher>
+		<dc:subject>Juvenile Fiction</dc:subject>
+		<dc:title>Hänsel y Gretel</dc:title>
+	</entry>
+	<entry>
+		<id>http://www.google.com/books/feeds/volumes/TOKBSQAACAAJ</id>
+		<updated>2021-03-18T12:28:50.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind'
+			term='http://schemas.google.com/books/2008#volume' />
+		<title type='text'>Hansel y Gretel</title>
+		<link rel='http://schemas.google.com/books/2008/info'
+			type='text/html'
+			href='http://books.google.com/books?id=TOKBSQAACAAJ&amp;dq=Hansel+y+Gretel&amp;source=gbs_gdata' />
+		<link rel='http://schemas.google.com/books/2008/preview'
+			type='text/html'
+			href='http://books.google.com/books?id=TOKBSQAACAAJ&amp;dq=Hansel+y+Gretel&amp;cd=5&amp;source=gbs_gdata' />
+		<link rel='http://schemas.google.com/books/2008/annotation'
+			type='application/atom+xml'
+			href='http://www.google.com/books/feeds/users/me/volumes' />
+		<link rel='alternate' type='text/html'
+			href='http://books.google.com/books?id=TOKBSQAACAAJ&amp;dq=Hansel+y+Gretel' />
+		<link rel='self' type='application/atom+xml'
+			href='https://www.google.com/books/feeds/volumes/TOKBSQAACAAJ' />
+		<gbs:contentVersion>preview-1.0.0</gbs:contentVersion>
+		<gbs:embeddability
+			value='http://schemas.google.com/books/2008#not_embeddable' />
+		<gbs:openAccess
+			value='http://schemas.google.com/books/2008#disabled' />
+		<gbs:viewability
+			value='http://schemas.google.com/books/2008#view_no_pages' />
+		<dc:creator>Alberto Szpunberg</dc:creator>
+		<dc:creator>Wilhelm Grimm</dc:creator>
+		<dc:creator>Sergio Kern</dc:creator>
+		<dc:date>2006</dc:date>
+		<dc:description>El cuento de hadas clásico de los Hermanos Grimm de
+			Hansel y Gretel.</dc:description>
+		<dc:format>43 pages</dc:format>
+		<dc:format>book</dc:format>
+		<dc:identifier>TOKBSQAACAAJ</dc:identifier>
+		<dc:identifier>ISBN:8498201012</dc:identifier>
+		<dc:identifier>ISBN:9788498201017</dc:identifier>
+		<dc:language>es</dc:language>
+		<dc:subject>Fairy tales</dc:subject>
+		<dc:title>Hansel y Gretel</dc:title>
+	</entry>
+</feed>

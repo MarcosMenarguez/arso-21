@@ -1,0 +1,71 @@
+{
+	"@context": {
+		"c": "http://www.w3.org/2002/12/cal#",
+		"dcterms": "http://purl.org/dc/terms/",
+		"geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+		"loc": "http://purl.org/ctic/infraestructuras/localizacion#",
+		"org": "http://purl.org/ctic/infraestructuras/organizacion#",
+		"vcard": "http://www.w3.org/2006/vcard/ns#",
+		"schema": "https://schema.org/",
+		"title": "vcard:fn",
+		"id": "dcterms:identifier",
+		"relation": "dcterms:relation",
+		"references": "dcterms:references",
+		"address": "vcard:adr",
+		"area": "loc:barrio",
+		"district": "loc:distrito",
+		"locality": "vcard:locality",
+		"postal-code": "vcard:postal-code",
+		"street-address": "vcard:street-address",
+		"location": "vcard:geo",
+		"latitude": "geo:lat",
+		"longitude": "geo:long",
+		"organization": "vcard:org",
+		"organization-desc": "dcterms:description",
+		"accesibility": "org:accesibilidad",
+		"services": "org:servicios",
+		"schedule": "org:horario",
+		"organization-name": "vcard:organization-name",
+		"description": "c:summary",
+		"link": "c:url",
+		"uid": "c:uid",
+		"dtstart": "c:dtstart",
+		"dtend": "c:dtend",
+		"time": "c:time",
+		"excluded-days": "c:exdate",
+		"event-location": "c:location",
+		"free": "schema:free",
+		"price": "c:resource",
+		"recurrence": "c:rrule",
+		"days": "c:byday",
+		"frequency": "c:freq",
+		"interval": "c:interval",
+		"audience": "dc:audience"
+	},
+	"@graph": [
+		{
+			"@id": "https://datos.madrid.es/egob/catalogo/tipo/evento/11340879-3-5-anos-hansel-gretel-caperucita-roja-.json",
+			"@type": "https://datos.madrid.es/egob/kos/actividades/CursosTalleres",
+			"id": "11340879",
+			"title": "De 3 a 5 años: 'Hansel y Gretel' y 'Caperucita roja'",
+			"description": "Lectura y dinamización de ambos cuentos.  Para niños y niñas de 3 a 5 años.  Actividad virtual.  Imprescindible inscripción previa.",
+			"free": "1",
+			"price": "",
+			"dtstart": "2021-04-08 18:00:00.0",
+			"dtend": "2021-04-08 23:59:00.0",
+			"time": "18:00",
+			"excluded-days": "",
+			"recurrence": {
+				"days": "",
+				"frequency": "WEEKLY",
+				"interval": 1
+			},
+			"uid": "11340879",
+			"audience": "Niños",
+			"references": {
+				"@id": "CONTENT-URL-ACTIVIDAD"
+			},
+			"link": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=e51b6a6acb3f7710VgnVCM1000001d4a900aRCRD"
+		}
+	]
+}
