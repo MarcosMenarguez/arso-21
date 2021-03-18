@@ -11,7 +11,7 @@
         	<nombre>Pepe</nombre>  
         	<nota>8</nota>
   	</calificacion>  
-  	<diligencia fecha="2021-02-05">
+  	<diligencia fecha="2021-02-05" extraordinaria="no">
         	<nif>13322156M</nif>
         	<nota>9</nota>	
   	</diligencia>
