@@ -42,13 +42,13 @@ public class Programa {
 		// 6: /actividad/agenda/turno[1]
 		// 7: /actividad/agenda/turno[last()]
 		
-
 		XPathExpression consulta = xpath.compile("/actividad/agenda/turno[last()]");
 
 		// Importante: hay que ajustar la evaluacion y el tipo de retorno segun
 		// el dato que se espere
 
 		NodeList resultado = (NodeList) consulta.evaluate(doc, XPathConstants.NODESET);
+		
 		for (int i = 0; i < resultado.getLength(); i++) {
 
 			Node nodo = resultado.item(i);
