@@ -1,0 +1,24 @@
+
+{
+    "convocatoria": "febrero",
+    "curso": 2020,
+    "asignatura": 1902,
+    "calificaciones": [
+        {
+            "nif": "23322156M",
+            "nota": 10
+        },
+        {
+            "nif": "13322156M",
+            "nombre": "Pepe",
+            "nota": 8
+        }
+    ],
+    "diligencias": [
+        {
+            "nif": "13322156M",
+            "nota": 9,
+            "fecha": "2021-02-12"
+        }
+    ]
+}

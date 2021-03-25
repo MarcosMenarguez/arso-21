@@ -19,6 +19,19 @@
 
 	<dependencies>
 
+		<!-- RabbitMQ -->
+
+		<dependency>
+			<groupId>com.rabbitmq</groupId>
+			<artifactId>amqp-client</artifactId>
+			<version>5.8.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-simple</artifactId>
+			<version>1.7.30</version>
+		</dependency>
+
 		<!-- JSON -->
 
 		<dependency>
