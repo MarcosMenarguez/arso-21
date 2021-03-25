@@ -22,7 +22,7 @@ public class ProgramaLeerColores {
 		
         for (JsonObject color : colores.getValuesAs(JsonObject.class)) { 
         	
-        	if (color.containsKey("type"))
+          	if (color.containsKey("type"))
                 System.out.println("Type: " + color.getString("type"));
 
         	JsonArray rgba = color.getJsonObject("code").getJsonArray("rgba");

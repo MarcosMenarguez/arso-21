@@ -45,7 +45,7 @@ public class Programa {
 		- Calificaciones con nota >= 9.
 		- Calificaciones o diligencias para el NIF "13322156M"
 		- Calificaciones cuyo NIF comience por "2".
-		- La segunda calificación
+		- La segunda calificación: "/acta/calificacion[last()]"
 		 **/
 		
 		

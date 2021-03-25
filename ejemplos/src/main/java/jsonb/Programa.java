@@ -46,27 +46,5 @@ public class Programa {
 		
 		System.out.println("fin.");
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 	}
 }
