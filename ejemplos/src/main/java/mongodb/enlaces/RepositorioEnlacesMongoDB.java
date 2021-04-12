@@ -16,7 +16,7 @@ import com.mongodb.client.model.Filters;
 import repositorio.EntidadNoEncontrada;
 import repositorio.RepositorioException;
 
-public class RepositorioLinksMongoDB implements RepositorioEnlaces {
+public class RepositorioEnlacesMongoDB implements RepositorioEnlaces {
 
 	// Constantes para identificadores de las propiedades
 	
@@ -29,11 +29,11 @@ public class RepositorioLinksMongoDB implements RepositorioEnlaces {
 	private MongoCollection<Document> enlaces;
 
 	
-	public RepositorioLinksMongoDB() {
+	public RepositorioEnlacesMongoDB() {
 		
 		// TODO: la cadena de conexión debería obtenerse de una propiedad
 		
-		String uriString = "url";
+		String uriString = "mongodb+srv://arso:arso-20@cluster0.mp1o0.azure.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 
 		ConnectionString connectionString = new ConnectionString(uriString);
 

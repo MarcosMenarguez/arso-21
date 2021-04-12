@@ -13,7 +13,7 @@ public class Productor {
 	public static void main(String[] args) throws Exception {
 		
 		ConnectionFactory factory = new ConnectionFactory();
-	    factory.setUri("url");
+	    factory.setUri("amqps://cjwcgmld:PSivlu_1XxFdvs6FclraBxll-yrT1vvl@bonobo.rmq.cloudamqp.com/cjwcgmld");
 
 	    Connection connection = factory.newConnection();
 
@@ -21,10 +21,10 @@ public class Productor {
 
 	    /** Declaración del Exchange y cola, opcional **/
 	    
-	    /*
+	    
 	    final String exchangeName = "arso-exchange";
 	    final String queueName = "arso-queue";
-	    final String routingKey = "arso-queue";
+	    final String bindingKey = "arso-queue";
 	   
 	    try {
 	        boolean durable = true;
@@ -35,7 +35,7 @@ public class Productor {
 	        Map<String, Object> properties = null; // sin propiedades
 	        channel.queueDeclare(queueName, durable, exclusive, autodelete, properties);    
 	        
-	        channel.queueBind(queueName, exchangeName, routingKey);
+	        channel.queueBind(queueName, exchangeName, bindingKey);
 	    } catch (IOException e) {
 
 	        String mensaje = e.getMessage() == null ? e.getCause().getMessage() : e.getMessage();
@@ -44,7 +44,7 @@ public class Productor {
 	        return;
 	    }
 	    
-	    */
+	    
 	    
 	    String mensaje = "hola2"; 
         

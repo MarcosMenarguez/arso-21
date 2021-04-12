@@ -17,7 +17,7 @@ public class Consumidor {
 	public static void main(String[] args) throws Exception {
 		
 		ConnectionFactory factory = new ConnectionFactory();
-	    factory.setUri("url");
+	    factory.setUri("amqps://cjwcgmld:PSivlu_1XxFdvs6FclraBxll-yrT1vvl@bonobo.rmq.cloudamqp.com/cjwcgmld");
 
 	    Connection connection = factory.newConnection();
 

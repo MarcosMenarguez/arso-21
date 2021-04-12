@@ -1,4 +1,4 @@
-package mongodb.enlaces;
+package mongodb.enlaces.pojo;
 
 
 public class FactoriaRepositorioEnlaces {
