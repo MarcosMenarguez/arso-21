@@ -19,6 +19,19 @@
 
 	<dependencies>
 
+		<!-- JAX-WS -->
+
+		<dependency>
+			<groupId>javax.xml.ws</groupId>
+			<artifactId>jaxws-api</artifactId>
+			<version>2.3.1</version>
+		</dependency>
+		<dependency>
+			<groupId>com.sun.xml.ws</groupId>
+			<artifactId>jaxws-rt</artifactId>
+			<version>2.3.1</version>
+		</dependency>
+
 		<!-- MongoDB -->
 
 		<dependency>
@@ -193,6 +206,28 @@
 					</schemaIncludes>
 				</configuration>
 
+			</plugin>
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>jaxws-maven-plugin</artifactId>
+				<version>2.6</version>
+				<executions>
+					<execution>
+						<goals>
+							<goal>wsimport</goal>
+						</goals>
+						<configuration>
+							<sourceDestDir>
+								${project.build.directory}/generated-sources/
+							</sourceDestDir>
+							<wsdlUrls>
+								<wsdlUrl>http://localhost:9999/ws/saludo?wsdl</wsdlUrl>
+								<wsdlUrl>http://ws.cdyne.com/ip2geo/ip2geo.asmx?wsdl</wsdlUrl>
+								<wsdlUrl>http://localhost:9998/ws/conversor?wsdl</wsdlUrl>
+							</wsdlUrls>
+						</configuration>
+					</execution>
+				</executions>
 			</plugin>
 		</plugins>
 	</build>
