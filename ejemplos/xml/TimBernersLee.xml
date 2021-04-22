@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<dblp:Person rdf:about="https://dblp.org/pid/b/TimBernersLee">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<owl:sameAs rdf:resource="https://orcid.org/0000-0003-1279-3709" />
+<owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q80" />
+<owl:sameAs rdf:resource="https://viaf.org/viaf/85312226" />
+<owl:sameAs rdf:resource="https://id.loc.gov/authorities/names/no99010609" />
+<owl:sameAs rdf:resource="https://d-nb.info/gnd/121649091" />
+<owl:sameAs rdf:resource="http://id.worldcat.org/fast/429429" />
+<rdfs:label>Tim Berners-Lee</rdfs:label>
+<wdt:P2456>b/TimBernersLee</wdt:P2456>
+<wdt:P864>81100026375</wdt:P864>
+<wdt:P1556>berners-lee.tim</wdt:P1556>
+<wdt:P2002>timberners_lee</wdt:P2002>
+<wdt:P2037>timbl</wdt:P2037>
+<wdt:P496>0000-0003-1279-3709</wdt:P496>
+<wdt:P1687>Q80</wdt:P1687>
+<wdt:P2038>Tim_Berners-Lee</wdt:P2038>
+<wdt:P214>85312226</wdt:P214>
+<wdt:P244>names/no99010609</wdt:P244>
+<wdt:P227>121649091</wdt:P227>
+<dblp:primaryFullCreatorName>Tim Berners-Lee</dblp:primaryFullCreatorName>
+<dblp:primaryAffiliation>Massachusetts Institiute of Technology, Cambridge, MA, USA</dblp:primaryAffiliation>
+<dblp:otherAffiliation>University of Southampton, School of Electronics and Computer Science, UK</dblp:otherAffiliation>
+<dblp:otherAffiliation>CERN, Geneva, Switzerland</dblp:otherAffiliation>
+<dblp:creatorNote>award (2016): Turing Award</dblp:creatorNote>
+<dblp:creatorNote>award (2012): Internet Hall of Fame</dblp:creatorNote>
+<dblp:creatorNote>award (2002): Marconi Prize</dblp:creatorNote>
+<dblp:creatorNote>award (2000): EFF Pioneer Award</dblp:creatorNote>
+<dblp:creatorNote>award (1996): W. Wallace McDowell Award</dblp:creatorNote>
+<dblp:creatorNote>award (1995): ACM Software System Award</dblp:creatorNote>
+<dblp:primaryHomepage rdf:resource="http://www.w3.org/People/Berners-Lee/" />
+<dblp:webpage rdf:resource="https://dl.acm.org/profile/81100026375" />
+<dblp:webpage rdf:resource="https://zbmath.org/authors/?q=ai:berners-lee.tim" />
+<dblp:webpage rdf:resource="https://en.wikipedia.org/wiki/Tim_Berners-Lee" />
+<dblp:webpage rdf:resource="https://twitter.com/timberners_lee" />
+<dblp:webpage rdf:resource="https://github.com/timbl" />
+<dblp:webpage rdf:resource="https://www.researchgate.net/profile/Tim_Berners-Lee" />
+<dblp:webpage rdf:resource="https://openlibrary.org/authors/OL25245A" />
+<dblp:awardWebpage rdf:resource="http://amturing.acm.org/award_winners/berners-lee_8087960.cfm" />
+<dblp:awardWebpage rdf:resource="http://www.computerhistory.org/fellowawards/hall/sir-tim-berners-lee/" />
+<dblp:webpage rdf:resource="https://www.imdb.com/name/nm3805083/" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/egose/BuyleTMJMVB19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/www/AcostaBDDIJVZ19" />
+<dblp:editorOf rdf:resource="https://dblp.org/rec/conf/semweb/2018desemweb" />
+<dblp:editorOf rdf:resource="https://dblp.org/rec/conf/www/2018ldow" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/esws/CapadisliG0ASB17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icwe/CapadisliGV0AB17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/www/LehmannACJBHHB17" />
+<dblp:editorOf rdf:resource="https://dblp.org/rec/conf/www/2017ldow" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/www/MansourSHZCGAB16" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/www/AuerHBB16" />
+<dblp:editorOf rdf:resource="https://dblp.org/rec/conf/www/2016ldow" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/www/AuerBBH15" />
+<dblp:editorOf rdf:resource="https://dblp.org/rec/conf/www/2015ldow" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/semweb/SambraHBKA14" />
+<dblp:editorOf rdf:resource="https://dblp.org/rec/conf/www/2014ldow" />
+<dblp:editorOf rdf:resource="https://dblp.org/rec/conf/www/2013ldow" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/expert/ShadboltOBGGHs12" />
+<dblp:editorOf rdf:resource="https://dblp.org/rec/conf/www/2012ldow" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/www/Berners-Lee11" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/www/BizerHBH11" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/books/igi/11/BizerHB11" />
+<dblp:editorOf rdf:resource="https://dblp.org/rec/conf/www/2011ldow" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/ai/HendlerB10" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/intr/Berners-LeeCGP10" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/esws/OmitolaKPYSSBGHsS10" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/books/mit/10/OHaraBHS10" />
+<dblp:editorOf rdf:resource="https://dblp.org/rec/conf/www/2010ldow" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/ijswis/BizerHB09" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/chi/schraefelAWTBCJKDMMSSW09" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/semweb/SeneviratneKB09" />
+<dblp:editorOf rdf:resource="https://dblp.org/rec/conf/www/2009ldow" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/aim/Berners-LeeK08" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/cacm/WeitznerABFHS08" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/cacm/HendlerSHBW08" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/tplp/Berners-LeeCKSH08" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/www/Berners-LeeHLPPS08" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/www/BizerHIB08" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/www/BizerHIB08a" />
+<dblp:editorOf rdf:resource="https://dblp.org/rec/conf/www/2008ldow" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/policy/HansonBKSW07" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-0711-1533" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/expert/ShadboltBH06" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/ftweb/Berners-LeeHHOSW06" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/aaai/KagalBCW06" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/aaaiss/WeitznerABHHKMSW06" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/policy/KagalBCW06" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/www/ShadboltBHHB06" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/w3c/Berners-LeeCPS05" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/www/Berners-Lee05" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/rfc/rfc3986" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/books/daglib/0020403" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/rfc/rfc2616" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/www/org/w3/http1-1" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/rfc/rfc2396" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/cacm/Berners-Lee97" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/jodi/Berners-Lee97" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/rfc/rfc2068" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/computer/Berners-Lee96" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/wwwj/Berners-Lee96" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/rfc/rfc1945" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/rfc/rfc1866" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/cacm/Berners-LeeCLNS94" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/rfc/rfc1630" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/rfc/rfc1738" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/cn/Berners-LeeCG92" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/en/Berners-LeeCGP92" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sigopsE/Berners-Lee88" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/a/HAbelson" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/01/3996" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/21/10280" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/41/2997" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/05/6406" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/12/6612" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/b/ChristianBizer" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/156/5495" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/c/RobertCailliau" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/159/8627" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/33/2532" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/61/1413" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/36/3798" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/25/5167" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/55/9872" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/d/JohnDomingue" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/f/JoanFeigenbaum" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/03/4572" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/00/9453" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/72/5069" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/178/3717" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/05/6345" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/79/5685" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/60/3972" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/144/2749" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/h/WendyHall" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/22/5391" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/85/3550" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/59/2318" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/66/7507" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/71/1697" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/h/JamesAHendler" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/h/AidanHogan" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/121/4574" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/62/8313" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/67/3827" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/48/3749" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/95/5567" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/262/2942" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/75/6949" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/k/IsaacSKohane" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/75/8176" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/68/6676" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/l/ChristophLange2" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/72/6821" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/71/4882" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/71/7070" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/46/1100" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/78/5047" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/29/5203" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/m/EssamMansour" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/m/GaryMarsden" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/78/3899" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/75/766" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/m/DLMcGuinness" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/m/JeffreyCMogul" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/262/2944" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/71/6238" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/90/2568" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/97/2532" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/50/3286" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/04/6730" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/121/4568" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/10/5324" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/13/4579" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/35/10366" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/14/6154" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/s/MonicaMCSchraefel" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/78/5679" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/66/7522" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/s/NigelShadbolt" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/s/BShneiderman" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/s/GeraldJSussman" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/11/6043" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/35/3308" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/180/1760" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/t/DesneySTan" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/14/9377" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/92/654" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/12/8706" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/w/DanielJWeitzner" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/w/RyenWWhite" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/48/450" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/43/9678" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/178/3734" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pid/b/TimBernersLee.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;b/TimBernersLee&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2021-04-10T22:48:53+0200</dct:modified>
+</rdf:Description>
+</rdf:RDF>

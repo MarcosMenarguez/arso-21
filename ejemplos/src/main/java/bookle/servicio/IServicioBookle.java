@@ -3,11 +3,13 @@ package bookle.servicio;
 import java.util.Date;
 import java.util.List;
 
+import javax.jws.WebService;
+
 import es.um.bookle.Actividad;
 import repositorio.EntidadNoEncontrada;
 import repositorio.RepositorioException;
 
-
+@WebService(targetNamespace = "http://um.es/arso/bookle/soap")
 public interface IServicioBookle {
 
 	/** 
@@ -16,7 +18,7 @@ public interface IServicioBookle {
 	 * @param actividad debe ser valida respecto al modelo de dominio
 	 * @return identificador de la actividad
 	 */
-	String create(Actividad actividad) throws RepositorioException;
+	String create(Actividad actividad) throws ServicioBookleException;
 	
 	/**
 	 * Actualiza una actividad.

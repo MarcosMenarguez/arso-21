@@ -5,6 +5,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Optional;
 
+import javax.jws.WebService;
 import javax.xml.datatype.XMLGregorianCalendar;
 
 import org.xml.sax.SAXParseException;
@@ -18,6 +19,7 @@ import es.um.bookle.Turno;
 import repositorio.EntidadNoEncontrada;
 import repositorio.RepositorioException;
 
+@WebService(endpointInterface = "bookle.servicio.IServicioBookle",  targetNamespace = "http://um.es/arso/bookle/soap")
 public class ServicioBookle implements IServicioBookle {
 
 	private RepositorioActividades repositorio = FactoriaRepositorioActividades.getRepositorio();
@@ -49,15 +51,21 @@ public class ServicioBookle implements IServicioBookle {
 	}
 
 	@Override
-	public String create(Actividad actividad) throws RepositorioException {
+	public String create(Actividad actividad) throws ServicioBookleException {
 
+		
 		// Según el esquema, el id es obligatorio
 		// Se establece uno provisional, el repositorio aportará el definitivo
 		actividad.setId(" ");
 
-		validar(actividad);
+		try {
+			validar(actividad);
 
-		return repositorio.add(actividad);
+			return repositorio.add(actividad);
+		}
+		catch(RepositorioException e) {
+			throw new ServicioBookleException("No se ha podido crear la actividad", e);
+		}
 	}
 
 	@Override

@@ -224,6 +224,7 @@
 								<wsdlUrl>http://localhost:9999/ws/saludo?wsdl</wsdlUrl>
 								<wsdlUrl>http://ws.cdyne.com/ip2geo/ip2geo.asmx?wsdl</wsdlUrl>
 								<wsdlUrl>http://localhost:9998/ws/conversor?wsdl</wsdlUrl>
+								<wsdlUrl>http://localhost:9995/ws/bookle?wsdl</wsdlUrl>
 							</wsdlUrls>
 						</configuration>
 					</execution>
