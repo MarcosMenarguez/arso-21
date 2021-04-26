@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<actividad xmlns="http://www.um.es/bookle">
+    <id>37b9e9d4-e1d8-4207-8750-3ca4337e79c9</id>
+    <titulo>Entrevistas de prácticas</titulo>
+    <descripcion>Enlace Zoom</descripcion>
+    <profesor>Marcos</profesor>
+    <email>marcos@um.es</email>
+    <agenda>
+        <fecha>2021-04-12</fecha>
+        <turno>
+            <horario>10:00h</horario>
+            <reserva>
+                <alumno>Juan</alumno>
+                <email>juan@um.es</email>
+            </reserva>
+        </turno>
+        <turno>
+            <horario>11:00h</horario>
+        </turno>
+        <turno>
+            <horario>12:00h</horario>
+        </turno>
+        <turno>
+            <horario>13:00h</horario>
+        </turno>
+        <turno>
+            <horario>14:00h</horario>
+        </turno>
+    </agenda>
+    <agenda>
+        <fecha>2021-04-13</fecha>
+        <turno>
+            <horario>17:00h</horario>
+        </turno>
+        <turno>
+            <horario>18:00h</horario>
+        </turno>
+        <turno>
+            <horario>19:00h</horario>
+        </turno>
+    </agenda>
+</actividad>
