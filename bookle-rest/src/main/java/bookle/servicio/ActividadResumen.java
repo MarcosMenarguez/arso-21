@@ -25,6 +25,8 @@ public class ActividadResumen {
 		this.profesor = profesor;
 	}
 	
+	
+	
 	@Override
 	public String toString() {
 		return "ActividadResumen [id=" + id + ", titulo=" + titulo + ", profesor=" + profesor + "]";

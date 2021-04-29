@@ -57,7 +57,7 @@ public class ServicioBookle implements IServicioBookle {
 		actividad.setId(" ");
 
 		try {
-			// validar(actividad);
+			validar(actividad);
 
 			return repositorio.add(actividad);
 		}
@@ -69,7 +69,7 @@ public class ServicioBookle implements IServicioBookle {
 	@Override
 	public void update(Actividad actividad) throws RepositorioException, EntidadNoEncontrada {
 
-		// validar(actividad);
+		validar(actividad);
 
 		repositorio.update(actividad);
 	}
