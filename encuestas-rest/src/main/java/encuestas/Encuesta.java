@@ -22,11 +22,11 @@ public class Encuesta {
 	private String titulo;
 	private String instrucciones;
 	
-	@JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd-MM-yyyy hh:mm:ss")
+	@JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd-MM-yyyy HH:mm:ss")
 	@JsonSerialize(using = LocalDateTimeSerializer.class)
 	private LocalDateTime fechaApertura;
 	
-	@JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd-MM-yyyy hh:mm:ss")
+	@JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd-MM-yyyy HH:mm:ss")
 	@JsonSerialize(using = LocalDateTimeSerializer.class)
 	private LocalDateTime fechaCierre;
 	
