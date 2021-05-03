@@ -69,8 +69,9 @@ public class BookleControladorRest {
 	@Consumes(MediaType.APPLICATION_XML)
 	public Response update(@PathParam("id") String id, Actividad actividad) throws Exception {
 		
-		// TODO: comprobar que el parámetro id coincide con el campo id de la actividad
-		
+		if (! id.equals(actividad.getId()))
+			throw new IllegalArgumentException("El identificador no coincide: " + id);
+					
 		servicio.update(actividad);
 		
 		return Response.status(Response.Status.NO_CONTENT).build();
@@ -193,21 +194,6 @@ public class BookleControladorRest {
 		return Response.status(Response.Status.NO_CONTENT).build();
 		
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	
 	
 }
