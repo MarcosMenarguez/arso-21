@@ -1,0 +1,20 @@
+type Enlace {
+  id: String!
+  url: String!
+  descripcion: String!
+  emailUsuario: String! 
+}
+
+type Query {
+  findAll: [Enlace]
+}
+
+type Mutation {
+  crearEnlace(url: String!, descripcion: String!, emailUsuario: String!): Enlace
+}
+
+schema {
+  query: Query
+  mutation: Mutation
+}
+
