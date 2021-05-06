@@ -1,4 +1,4 @@
-package retrofit;
+package retrofit.github;
 
 import java.util.List;
 

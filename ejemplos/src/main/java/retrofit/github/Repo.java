@@ -1,4 +1,4 @@
-package retrofit;
+package retrofit.github;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
