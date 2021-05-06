@@ -9,7 +9,9 @@ import org.bson.types.ObjectId;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
+import com.fasterxml.jackson.datatype.jsr310.deser.LocalDateTimeDeserializer;
 import com.fasterxml.jackson.datatype.jsr310.ser.LocalDateTimeSerializer;
 
 
@@ -24,10 +26,12 @@ public class Encuesta {
 	
 	@JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd-MM-yyyy HH:mm:ss")
 	@JsonSerialize(using = LocalDateTimeSerializer.class)
+	@JsonDeserialize(using = LocalDateTimeDeserializer.class)
 	private LocalDateTime fechaApertura;
 	
 	@JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd-MM-yyyy HH:mm:ss")
 	@JsonSerialize(using = LocalDateTimeSerializer.class)
+	@JsonDeserialize(using = LocalDateTimeDeserializer.class)
 	private LocalDateTime fechaCierre;
 	
 	private LinkedList<Opcion> opciones = new LinkedList<>();
@@ -37,6 +41,11 @@ public class Encuesta {
 		return id.toString();
 	}
 
+	public void setIdentificador(String identificador) {
+		
+		this.id = new ObjectId(identificador);
+	}
+	
 	public ObjectId getId() {
 		return id;
 	}

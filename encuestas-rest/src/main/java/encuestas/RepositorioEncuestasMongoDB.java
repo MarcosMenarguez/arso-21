@@ -29,7 +29,7 @@ public class RepositorioEncuestasMongoDB implements RepositorioEncuestas {
 		
 		// TODO: la cadena de conexión debería obtenerse de una propiedad
 		
-		String uriString = "mongodb://arso:arso-20@cluster0-shard-00-00.mp1o0.azure.mongodb.net:27017,cluster0-shard-00-01.mp1o0.azure.mongodb.net:27017,cluster0-shard-00-02.mp1o0.azure.mongodb.net:27017/myFirstDatabase?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true&w=majority";
+		String uriString = "mongodb://arso:Ux1WkJEbALErSIm2@cluster0-shard-00-00.mp1o0.azure.mongodb.net:27017,cluster0-shard-00-01.mp1o0.azure.mongodb.net:27017,cluster0-shard-00-02.mp1o0.azure.mongodb.net:27017/myFirstDatabase?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true&w=majority";
 
 		ConnectionString connectionString = new ConnectionString(uriString);
 

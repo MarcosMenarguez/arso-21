@@ -1,0 +1,22 @@
+{
+	"titulo": "Fecha del parcial",
+	"fechaApertura": "01-05-2021 08:00:36",
+	"fechaCierre": "02-05-2021 08:00:36",
+	"opciones": [
+		{
+			"texto": "Jueves",
+			"votos": [
+				"juan@um.es"
+			],
+			"numeroVotos": 1
+		},
+		{
+			"texto": "Viernes",
+			"votos": [
+			],
+			"numeroVotos": 0
+		}
+	],
+	"identificador": "1",
+	"numeroOpciones": 2
+}
