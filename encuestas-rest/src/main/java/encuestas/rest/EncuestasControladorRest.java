@@ -23,9 +23,11 @@ import encuestas.ListadoEncuestas;
 import encuestas.ListadoEncuestas.EncuestaResumen;
 import encuestas.ServicioEncuestas;
 import encuestas.rest.Listado.ResumenExtendido;
+import io.swagger.annotations.Api;
 import repositorio.EntidadNoEncontrada;
 import repositorio.RepositorioException;
 
+@Api
 @Path("encuestas")
 public class EncuestasControladorRest {
 

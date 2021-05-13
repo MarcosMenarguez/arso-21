@@ -4,6 +4,9 @@ import java.util.LinkedList;
 
 import org.bson.codecs.pojo.annotations.BsonIgnore;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class Opcion {
 
 	private String texto;
