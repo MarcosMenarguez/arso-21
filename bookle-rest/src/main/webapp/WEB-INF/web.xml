@@ -13,6 +13,10 @@
 				io.swagger.jaxrs.listing, bookle.rest</param-value>
 		</init-param>
 		<init-param>
+			<param-name>com.sun.jersey.spi.container.ResourceFilters</param-name>
+			<param-value>bookle.rest.seguridad.AuthorizationFilterFactory</param-value>
+		</init-param>
+		<init-param>
 			<param-name>com.sun.jersey.api.json.POJOMappingFeature</param-name>
 			<param-value>true</param-value>
 		</init-param>
